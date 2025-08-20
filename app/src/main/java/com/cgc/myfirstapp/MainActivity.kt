@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -25,8 +26,32 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        Log.d(TAG, "onCreate")
+        initView()
+
     }
+
+    private fun initView() {
+
+        val submitBtn = findViewById<Button>(R.id.amSubmit)
+        val etName = findViewById<EditText>(R.id.amName)
+
+
+        submitBtn.setOnClickListener {
+
+            if(etName.text.isNotEmpty()) {
+                val intent = Intent(this@MainActivity, SecondScreen::class.java)
+                intent.putExtra("name", etName.text.toString())
+                startActivity(intent)
+            }else{
+                Toast.makeText(this@MainActivity, "Enter your name", Toast.LENGTH_SHORT).show()
+            }
+
+          //  Toast.makeText(this@MainActivity, "Click on Submit", Toast.LENGTH_SHORT).show()
+        }
+
+      //  submitBtn.text = "DONE"
+    }
+
 
     override fun onStart() {
         super.onStart()
