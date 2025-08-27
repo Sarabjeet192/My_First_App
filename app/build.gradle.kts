@@ -26,6 +26,12 @@ android {
             )
         }
     }
+
+
+    buildFeatures {
+        viewBinding = true
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -49,5 +55,6 @@ dependencies {
     implementation(libs.sdp.android)
     implementation(libs.ssp.android)
 
+    implementation(libs.glide)
 
 }

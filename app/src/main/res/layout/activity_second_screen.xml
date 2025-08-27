@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".SecondScreen">
 
     <TextView
@@ -13,9 +14,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="N/A"
+        android:text="@string/n_a"
         android:textSize="@dimen/_44sdp"
+        android:visibility="gone"
         android:textColor="@color/black"
         android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/ssSetResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginHorizontal="@dimen/_44sdp"
+        android:gravity="center"
+        android:text="Click On me"/>
 
 </LinearLayout>
