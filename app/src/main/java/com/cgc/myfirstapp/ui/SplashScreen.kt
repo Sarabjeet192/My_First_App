@@ -23,8 +23,11 @@ class SplashScreen : AppCompatActivity() {
 
 
         Handler(Looper.getMainLooper()).postDelayed({
+
             val intent = Intent(this@SplashScreen, Dashboard::class.java)
             startActivity(intent)
+            finish()
+
         }, 3000)
 
     }
