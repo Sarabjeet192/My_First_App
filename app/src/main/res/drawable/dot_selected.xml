@@ -2,5 +2,4 @@
     android:shape="oval">
     <size android:width="16dp" android:height="16dp"/>
     <solid android:color="#FF5722"/> <!-- Blue selected dot -->
-
 </shape>

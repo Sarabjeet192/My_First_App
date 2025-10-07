@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/_24sdp"
+    tools:context=".ui.PostApiExample">
+
+    <ImageView
+        android:id="@+id/pieImage"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/_24sdp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:progress="94"
+        android:layout_gravity="center"
+        android:max="100"
+        android:layout_margin="@dimen/_16sdp"/>
+
+    <TextView
+        android:id="@+id/pieInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_12sdp"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/pieBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/_12sdp"
+        android:text="hit post Api"/>
+
+    <ImageView
+        android:id="@+id/pieUploadedImage"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_marginTop="@dimen/_24sdp"/>
+
+</LinearLayout>

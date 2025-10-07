@@ -18,6 +18,7 @@ import com.cgc.myfirstapp.databinding.ItemBannerBinding
 class HomeFragment : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
+
     private lateinit var adapter: BannerAdapter
 
     private val bannerImages = listOf(
@@ -57,6 +58,7 @@ class HomeFragment : Fragment() {
                 updateDotsIndicator(position)
             }
         })
+
         setupDotsIndicator()
 
     }

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "911411661077",
+    "firebase_url": "https://cgc-app-cb984-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "cgc-app-cb984",
+    "storage_bucket": "cgc-app-cb984.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911411661077:android:e68dfb068666bb92cdc11c",
+        "android_client_info": {
+          "package_name": "com.cgc.myfirstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911411661077-fjm7oh4osgoft22bmv7kukq5slttncud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cgc.myfirstapp",
+            "certificate_hash": "219a29a8f44b7f0ccffd1205b5cc6f29a7e8e68b"
+          }
+        },
+        {
+          "client_id": "911411661077-eusklhiihk3imfpq1ttq5cpkb4ltl7mh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4kNyebkOzzElnwpJMigKiS6T6UzxcRX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911411661077-eusklhiihk3imfpq1ttq5cpkb4ltl7mh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
